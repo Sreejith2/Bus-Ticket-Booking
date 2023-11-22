@@ -14,6 +14,3 @@ The **Bus Ticket Reservation System** is a web-based application developed to si
 
 - **Database Integration**: The system integrates with a MongoDB database to store user accounts, bus information, and booking records, ensuring data consistency and persistence.
 
-
-
-Video-https://www.loom.com/share/62b86bd2b15548a49152df97936b6044?sid=03852647-30f8-4bdf-89b6-8fc35cee2671
