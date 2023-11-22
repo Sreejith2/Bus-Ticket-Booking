@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
 @keyframes slideInLeft{
     from{
         transform: translateX(-300px);
@@ -20,13 +22,31 @@ body, html {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: -webkit-linear-gradient(65deg, #FF6969 50%, #FFF5E0 50%);
+    font-family: 'Boogaloo', sans-serif;
+    background: #FC5C7D;  
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); 
 }
 
-
+nav{
+    background-color:#000428 ;
+    text-align: end;
+    margin: 0;
+    padding: 0.3rem;
+}
+ul{
+    list-style: none;
+}
+li {
+    display: inline;
+    padding: 2rem;
+    color: white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
 .container {
-    /* background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(65deg, #FF6969 50%, #FFF5E0 50%); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +55,7 @@ body, html {
 
 
 .box {
+    font-family: 'Boogaloo', sans-serif;
     width: 200px;
     height: 200px;
     border: 1px solid #ccc;
@@ -44,6 +65,7 @@ body, html {
     border-radius: 10px;
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3rem;
 }
 
 #l{

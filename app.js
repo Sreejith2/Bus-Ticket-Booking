@@ -220,5 +220,5 @@ app.post("/cancel-ticket/:ticketId", async (req, res) => {
 
 
 app.listen(process.env.PORT|port,()=>{
-    console.log(`Server initiated at ${port}`);
+    console.log(`Server initiated at http://localhost:${port}`);
 });

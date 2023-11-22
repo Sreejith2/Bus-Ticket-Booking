@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
 body {
-    background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(65deg, #FF6969 50%, #FFF5E0 50%);
+    background: #FC5C7D;  
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); 
     min-height: 100vh; 
-    font-family: 'Helvetica Neue', sans-serif; 
+    font-family: 'Boogaloo', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,9 +13,34 @@ body {
     margin: 0;
 }
 
+nav {
+    background-color: #000428;
+    text-align: end;
+    margin: 0;
+    padding: 0.3rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 2rem;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     color: #000000;
-    padding: 10px 0;
+    padding: 10px ;
 }
 
 .ticket-list {
@@ -24,21 +52,24 @@ h1 {
 }
 
 .ticket {
-    background-color: #fbe6b8;
+    font-family: 'Boogaloo', sans-serif;
+    background: rgba(255,255,255,0.1);
     border: 1px solid #000000;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
     padding: 10px;
-    width: 250px; /* 33.33% for three cards in a row */
+    width: 250px; 
     text-align: center;
+    background-color: white;
     margin: 20px;
     border-radius: 20px;
 }
 
 button {
     display: inline-block;
-    background-color: #C70039; 
-    font-weight:800;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428);
+    font-weight: 800;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -47,4 +78,3 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-

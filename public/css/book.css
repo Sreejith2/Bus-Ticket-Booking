@@ -1,10 +1,12 @@
-/* Reset some default styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 
 body {
-    background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(65deg, #FF6969 50%, #FFF5E0 50%);
-    min-height: 100vh; /* Adjust to full viewport height */
-    font-family: 'Helvetica Neue', sans-serif; /* Correct the font family name */
+    background: #FC5C7D;  
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); 
+    min-height: 100vh; 
+    font-family: 'Boogaloo', sans-serif; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,18 +23,20 @@ body {
 }
 
 .card {
-    background-color: #fbe6b8;
+    background: rgba(255,255,255,0.1);
+    background-color: rgb(204, 203, 203);
     border: 1px solid #000000;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
     padding: 10px;
-    width: 250px; /* 33.33% for three cards in a row */
+    width: 250px; 
     text-align: center;
     margin: 20px;
     border-radius: 20px;
 }
 
 h1 {
+    margin: 0;
     text-align: center;
     font-size: 34px;
 }
@@ -47,8 +51,10 @@ p {
 }
 
 .button {
+    font-family: 'Boogaloo', sans-serif;
     display: inline-block;
-    background-color: #C70039; /* Change the background color as desired */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428);
     font-weight:500;
     color: #ffffff;
     padding: 10px 20px;
@@ -86,4 +92,35 @@ select{
 }
 #quantity{
     height:15px;
+}
+
+nav {
+    background-color: #000428;
+    text-align: end;
+    margin-bottom: 0;
+    padding: 0.3rem;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    line-height: 3.25rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    display: inline;
+    padding: 2rem;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+#heading{
+    margin-top: 3rem;
 }
