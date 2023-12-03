@@ -70,6 +70,10 @@ app.get("/book",(req,res)=>{
     res.render("book",{buses:buses});
 });
 
+app.get("/profile",(req,res)=>{
+    res.render("profile");
+});
+
 app.post("/login",async (req,res)=>{
     const{username,password}=req.body;
     try{

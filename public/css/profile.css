@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInRight{
+    from{
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+body, html {
+   
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Boogaloo', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: #FC5C7D;  
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); 
+}
+
+nav{
+    background-color:#000428 ;
+    text-align: end;
+    margin: 0;
+    padding: 0.3rem;
+}
+ul{
+    list-style: none;
+}
+li {
+    display: inline;
+    padding: 2rem;
+    color: white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  
+  .user-details label {
+    min-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .user-details span {
+    font-weight: bold;
+  }
+
+
