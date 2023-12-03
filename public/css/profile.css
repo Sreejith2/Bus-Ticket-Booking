@@ -56,14 +56,15 @@ h1 {
   }
   
   .user-details {
+    font-size: 30px;
     display: flex;
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     margin-left: 20rem;
     margin-right: 20rem;
-    border: 1px solid #ccc;
+    border: 1px solid #16256e;
     border-radius: 5px;
     background-color: transparent;
   }
